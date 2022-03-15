@@ -1,6 +1,17 @@
 p{
+    max-width: 550px;
 color:blue !important;
 background-color:yellow;
 }
+h2{
+    max-width: 550px;
+}
+img{
+    max-width: 550px;
+    
+   
+}
+
+
 
 

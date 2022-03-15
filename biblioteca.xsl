@@ -9,12 +9,20 @@
   
   
   <xsl:template match="libro">
+  	<img>
+          <xsl:attribute name="src">
+             <xsl:value-of select="foto"/>
+          </xsl:attribute>       
+        </img>
      <p>
      <xsl:value-of select="autor"/>
      </p>
      <h2>
      <xsl:value-of select="titulo"/>
-     </h2>     
+     </h2>    
+     
+     
+       
   </xsl:template>
   
 </xsl:stylesheet>

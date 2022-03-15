@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<biblioteca>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<?xml-stylesheet href="biblioteca.css"?>
+<biblioteca  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/xampp/htdocs/finalT2/biblioteca.xsd">
   <libro>
-    <titulo>La vida está en otra parte</titulo>
-    <autor>Milan Kundera</autor>
+    <foto>miki.webp</foto>
+    <titulo>Mi primer gato🐈‍⬛</titulo>
+    <autor>David López Hevilla</autor>
     <fechaPublicacion/>
   </libro>
   <libro>
-    <titulo>Pantaleón y las visitadoras</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
-    <fechaPublicacion año="1973"/>
+    <foto>senda.webp</foto>
+    <titulo>Mi segundo gatito 🐈</titulo>
+    <autor fechaNacimiento="24/12/1992">David López Hevilla</autor>
+    <fechaPublicacion año="2022"/>
   </libro>
   <libro>
-    <titulo>Conversación en la catedral</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
-    <fechaPublicacion año="1969"/>
+    <foto>summer.webp</foto>
+    <titulo>Mi tercer gato😽</titulo>
+    <autor fechaNacimiento="24/12/1992">David López Hevilla</autor>
+    <fechaPublicacion año="2022"/>
   </libro>
 </biblioteca>
