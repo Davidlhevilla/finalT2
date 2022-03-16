@@ -9,7 +9,9 @@
   
   
   <xsl:template match="libro">
-  	<img>
+  	<p id="novisible">Viewport muy estrecho</p>
+  	<div id="visible">
+  		<img>
           <xsl:attribute name="src">
              <xsl:value-of select="foto"/>
           </xsl:attribute>       
@@ -20,7 +22,7 @@
      <h2>
      <xsl:value-of select="titulo"/>
      </h2>    
-     
+     </div>
      
        
   </xsl:template>

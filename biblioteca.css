@@ -1,17 +1,50 @@
+
 p{
-    max-width: 550px;
 color:blue !important;
 background-color:yellow;
 }
-h2{
-    max-width: 550px;
+body:active{
+    flex-direction: row-reverse;
+    margin-left: 180px;
 }
-img{
-    max-width: 550px;
+body{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+img:active{
+    box-shadow: -40px -10px 5px 0px rgba(0, 0, 1 ,1.50);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     
    
 }
+#novisible{
+    visibility: hidden;
+}
+img{
+    width: 115%;
+ }
+h2:hover{
+    font-size: 29px;
+}
 
-
+ #visible{
+     margin:auto;
+     width:280px;
+     display: flex;
+     flex-direction: column;
+ 
+ }
+ @media screen and (max-width:550px){
+     body{
+         visibility: hidden;
+     }
+     #Novisible{
+         visibility: visible;
+         background-color: white;
+     }
+ }
 
 

@@ -4,19 +4,19 @@
 <biblioteca  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/xampp/htdocs/finalT2/biblioteca.xsd">
   <libro>
     <foto>miki.webp</foto>
-    <titulo>Mi primer gato🐈‍⬛</titulo>
+    <titulo>Miki descansando</titulo>
     <autor>David López Hevilla</autor>
     <fechaPublicacion/>
   </libro>
   <libro>
     <foto>senda.webp</foto>
-    <titulo>Mi segundo gatito 🐈</titulo>
+    <titulo>Senda de descanso</titulo>
     <autor fechaNacimiento="24/12/1992">David López Hevilla</autor>
     <fechaPublicacion año="2022"/>
   </libro>
   <libro>
     <foto>summer.webp</foto>
-    <titulo>Mi tercer gato😽</titulo>
+    <titulo>Summer de verano</titulo>
     <autor fechaNacimiento="24/12/1992">David López Hevilla</autor>
     <fechaPublicacion año="2022"/>
   </libro>
