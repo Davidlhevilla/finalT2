@@ -14,7 +14,7 @@ body{
 }
 
 img:active{
-    box-shadow: -40px -10px 5px 0px rgba(0, 0, 1 ,1.50);
+    box-shadow: -40px -10px 5px 0px rgba(0, 0, 1, 1.50);
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     
@@ -41,7 +41,7 @@ h2:hover{
      body{
          visibility: hidden;
      }
-     #Novisible{
+     #novisible{
          visibility: visible;
          background-color: white;
      }
