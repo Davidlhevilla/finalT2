@@ -2,14 +2,14 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  
  <xsl:template match="/">
-	<html><head><link rel="stylesheet" type="text/css" href="biblioteca.css" /></head><body>
+	<html><head><link rel="stylesheet" type="text/css" href="biblioteca.css" /></head><body><p id="novisible">Viewport muy estrecho</p>
       <xsl:apply-templates />
     </body></html>
   </xsl:template>
   
   
   <xsl:template match="libro">
-  	<p id="novisible">Viewport muy estrecho</p>
+  	
   	<div id="visible">
   		<img>
           <xsl:attribute name="src">
