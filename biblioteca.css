@@ -32,7 +32,7 @@ h2:hover{
 
  #visible{
      margin:auto;
-     width:280px;
+     width:300px;
      display: flex;
      flex-direction: column;
  
